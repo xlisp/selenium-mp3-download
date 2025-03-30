@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import time
 import os
-import wget
 
 def download_mp3(song_name, download_folder="downloads"):
     """
@@ -49,14 +48,19 @@ def download_mp3(song_name, download_folder="downloads"):
         print(f"Found song link: {link_url}")
         result_link.click()
         
-        # Step 3: On the detail page, find and click the "夸克MP3链接下载" button
+        # Step 3: On the detail page, find and click the "夸克MP3链接下载" button using the exact HTML structure
+        # Using the more precise CSS selector based on the HTML you provided
         quark_download_btn = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//a[contains(text(), '夸克MP3链接下载')]"))
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "a[href^='/download/'] h2.title[style*='background:#f7de0e']"))
         )
         
-        quark_download_btn.click()
+        # Click on the parent <a> element, not the h2
+        parent_link = quark_download_btn.find_element(By.XPATH, "./..")
+        parent_link.click()
         
         # Switch to the new tab (Quark pan page)
+        # Wait a moment for the new tab to open
+        time.sleep(2)
         driver.switch_to.window(driver.window_handles[-1])
         
         # Step 4: On the Quark pan page, find and click the download button

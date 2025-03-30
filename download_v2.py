@@ -7,7 +7,6 @@ from selenium.webdriver.chrome.options import Options
 import time
 import os
 import pickle
-import getpass
 
 def initialize_browser(download_folder="downloads"):
     """Initialize and return a Chrome browser with saved cookies if available"""
@@ -95,12 +94,14 @@ def download_song(driver, song_name):
                 driver.switch_to.window(window_handle)
                 break
         
-        # Check if logged in properly (look for download button)
+        # Check if logged in properly (look for download button using the exact HTML provided)
         try:
+            # Using the exact CSS selector based on the HTML you provided
             download_btn = WebDriverWait(driver, 15).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'download') or contains(text(), '下载')]"))
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "div.share-download"))
             )
             
+            print("Found download button, clicking...")
             download_btn.click()
             
             # Wait for download to start
@@ -116,6 +117,9 @@ def download_song(driver, song_name):
             
         except Exception as e:
             print(f"Error finding download button. Login may have expired: {e}")
+            # Take a screenshot for debugging
+            driver.save_screenshot("error_screenshot.png")
+            print("Screenshot saved as 'error_screenshot.png'")
             driver.close()
             driver.switch_to.window(original_window)
             return False
@@ -142,7 +146,7 @@ def main():
                 print("There was a problem downloading this song.")
                 
                 # Check if we need to re-login
-                retry = "n" ### #input("Do you need to log in again? (y/n): ")
+                retry = input("Do you need to log in again? (y/n): ")
                 if retry.lower() == 'y':
                     print("Please log in to Quark manually...")
                     driver.get("https://pan.quark.cn/")

@@ -1,0 +1,66 @@
+remove_chinese_numbered_files()
+Removed: 杨钰莹 - 轻轻的告诉你(1).mp3
+Removed: 费翔 - 故乡的云(1).mp3
+Removed: 张学友-每次都想呼喊你的名字(1).mp3
+Removed: 满文军-懂你(1).mp3
+Removed: 唐磊-丁香花(2).mp3
+Removed: 凤凰传奇 - 月亮之上(1).mp3
+Removed: 林子祥 - 男儿当自强(1).mp3
+Removed: 陈百强-偏偏喜欢你(1).mp3
+Removed: Beyond - 光辉岁月（国语版）(2).mp3
+Removed: 张宇-月亮惹的祸(1).mp3
+Removed: 罗大佑 - 恋曲1990(1).mp3
+Removed: beyond-海阔天空(2).mp3
+Removed: 周杰伦 - 彩虹(1).mp3
+Removed: 刘若英-为爱痴狂(1).mp3
+Removed: 刘德华-中国人(1).mp3
+Removed: 谭咏麟-一生中最爱(1).mp3
+Removed: 姜育恒-再回首(1).mp3
+Removed: 黄安-新鸳鸯蝴蝶梦(1).mp3
+Removed: 叶倩文-潇洒走一回(1).mp3
+Removed: 叶启田-爱拼才会赢(2).mp3
+Removed: 王菲 - 但愿人长久(1).mp3
+Removed: 梅艳芳-女人花(3).mp3
+Removed: 潘美辰 - 我曾用心爱着你(1)(1).mp3
+Removed: 刘小慧-初恋情人(1).mp3
+Removed: 陈淑桦-梦醒时分(1).mp3
+Removed: 韩红-天路(1).mp3
+Removed: 邓丽君-何日君再来(1).mp3
+Removed: 张学友&高慧君-你最珍贵(1).mp3
+Removed: 任贤齐-心太软(1).mp3
+Removed: 李克勤 - 红日(粤语)(2).mp3
+Removed: 林志炫 - 你的样子(1).mp3
+Removed: 伍佰 - 突然的自我(2).mp3
+Removed: 刀郎 - 2002年的第一场雪(1).mp3
+Removed: 林忆莲-至少还有你(2).mp3
+Removed: 张信哲-爱如潮水(1).mp3
+Removed: 李克勤-护花使者(1).mp3
+Removed: 王馨平-别问我是谁(1).mp3
+Removed: 黄霄雲 - 星辰大海(1).mp3
+Removed: 郑智化-水手(2).mp3
+Removed: 彭羚-囚鸟(1).mp3
+Removed: 张宇-雨一直下(1).mp3
+Removed: Beyond-情人 (1).mp3
+Removed: 谢霆锋-谢谢你的爱1999(1).mp3
+Removed: try-不是因为寂寞才想你(1).mp3
+Removed: beyond-真的爱你(1).mp3
+Removed: 伍思凯-特别的爱给特别的你(1).mp3
+Removed: 毛宁-涛声依旧(1).mp3
+Removed: 韦唯 - 爱的奉献(1).mp3
+Removed: 周华健-朋友(1).mp3
+Removed: 张信哲 - 难以抗拒你容颜(1).mp3
+Removed: 杨钰莹&毛宁-心雨(1).mp3
+Removed: 陈百强 - 念亲恩(1).mp3
+Removed: 游鸿明  - 爱我的人和我爱的人(1).mp3
+Removed: 张韶涵-隐形的翅膀(1).mp3
+Removed: 刘德华&柯受良&吴宗宪-笨小孩(1).mp3
+Removed: 林子祥 - 男儿当自强(2).mp3
+Removed: 郑智化-星星点灯(1).mp3
+Removed: 庞龙-两只蝴蝶(2).mp3
+Removed: 郑钧 - 回到拉萨(1).mp3
+Removed: 陈百强-偏偏喜欢你(2).mp3
+Removed: 张学友-吻别(1).mp3
+Removed: 关淑怡-难得有情人(1).mp3
+Removed: 李翊君-雨蝶(1).mp3
+
+Total files removed: 63

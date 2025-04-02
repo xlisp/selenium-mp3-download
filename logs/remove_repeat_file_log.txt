@@ -64,3 +64,74 @@ Removed: 关淑怡-难得有情人(1).mp3
 Removed: 李翊君-雨蝶(1).mp3
 
 Total files removed: 63
+
+#######
+
+@ remove_chinese_numbered_files()
+Removed: 那英 - 雾里看花(1).mp3
+Removed: 龙飘飘-昨夜星辰(1).mp3
+Removed: 王菲-我愿意(1).mp3
+Removed: 邰正宵 - 九百九十九朵玫瑰(1).mp3
+Removed: 孟庭苇 - 风中有朵雨做的云(1).mp3
+Removed: 潘美辰 - 我想有个家(1).mp3
+Removed: 庾澄庆 - 让我一次爱个够(1).mp3
+Removed: 游鸿明  - 爱我的人和我爱的人(2).mp3
+Removed: 费玉清-一剪梅(1).mp3
+Removed: 梁咏琪-爱的代价(1).mp3
+Removed: 高胜美-美酒加咖啡(1).mp3
+Removed: 郑智化-星星点灯(2).mp3
+Removed: 蔡琴-你的眼神(1).mp3
+Removed: 刘德华-忘情水(1).mp3
+Removed: 辛晓琪 - 领悟(1).mp3
+Removed: 小虎队 - 青苹果乐园(1).mp3
+Removed: 谭咏麟-爱在深秋(1).mp3
+Removed: 赵传 - 我是一只小小鸟(1).mp3
+Removed: 35 爱上一个不回家的人（林忆莲）(1).mp3
+Removed: 那英 - 白天不懂夜的黑(1).mp3
+Removed: 叶丽仪 - 上海滩(1).mp3
+Removed: 狼戈-苹果香(1).mp3
+Removed: 伍思凯-特别的爱给特别的你(2).mp3
+Removed: 甄妮-鲁冰花(1).mp3
+Removed: 毛宁-涛声依旧(2).mp3
+Removed: 刘若英-后来(1).mp3
+Removed: 谢霆锋-谢谢你的爱1999(2).mp3
+Removed: beyond-真的爱你(2).mp3
+Removed: 叶振棠-万里长城永不倒(1).mp3
+Removed: 黄霄雲 - 星辰大海(2).mp3
+Removed: 刘欢-好汉歌(1).mp3
+Removed: 张信哲-爱如潮水(2).mp3
+Removed: 李春波-一封家书(1).mp3
+Removed: 王杰-一场游戏一场梦(1).mp3
+Removed: 张震岳&蔡健雅 - 思念是一种病(1).mp3
+Removed: 群星-真心英雄(1).mp3
+Removed: 林志炫-其实你不懂我的心(1).mp3
+Removed: 李春波 - 小芳(1).mp3
+Removed: 张信哲-过火(1).mp3
+Removed: 田震-好大一棵树(1).mp3
+Removed: 童安格 - 耶利亚女郎(1).mp3
+Removed: 陈慧娴 - 千千阙歌(1).mp3
+Removed: 老狼-同桌的你(1).mp3
+Removed: 孙悦 - 祝你平安(1).mp3
+Removed: 孙楠-你快回来(1).mp3
+Removed: 吕方 - 弯弯的月亮(1).mp3
+Removed: 李克勤 - 红日(粤语)(3).mp3
+Removed: 罗文&甄妮-铁血丹心(1).mp3
+Removed: 姜育恒-再回首(2).mp3
+Removed: 陈百强-偏偏喜欢你(4).mp3
+Removed: 汪明荃 - 万水千山总是情(1).mp3
+Removed: 费翔 - 故乡的云(1)(1).mp3
+Removed: 甄妮-鲁冰花(2).mp3
+Removed: 林志炫-单身情歌(1).mp3
+Removed: 孙露-爱你在心口难开(1).mp3
+Removed: 罗大佑 - 恋曲1990(2).mp3
+Removed: 陈百强-偏偏喜欢你(3).mp3
+Removed: 吕方 - 朋友别哭(1).mp3
+Removed: 孙露 - 酒干倘卖无(1).mp3
+Removed: 草蜢-失恋阵线联盟(1).mp3
+Removed: 林依轮-爱情鸟(1).mp3
+Removed: 郭富城 - 对你爱不完(1).mp3
+Removed: 罗大佑-光阴的故事(1).mp3
+Removed: 钟镇涛 - 只要你过得比我好(1).mp3
+
+Total files removed: 64
+

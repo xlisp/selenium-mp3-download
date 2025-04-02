@@ -168,7 +168,7 @@ def batch_download_from_file(driver, filename):
             
             # Check if we need to re-login
             if index < len(songs):  # Don't ask at the end of the list
-                retry = input("Do you need to log in again? (y/n): ")
+                retry = "n" #input("Do you need to log in again? (y/n): ")
                 if retry.lower() == 'y':
                     print("Please log in to Quark manually...")
                     driver.get("https://pan.quark.cn/")

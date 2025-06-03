@@ -66,7 +66,7 @@ def download_song(driver, song_name):
         
         # Wait for search results - adjusted selector based on actual HTML structure
         result_link = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "ul > a[href^='/mscdetail/']")) ## TODO: fix new html
+            EC.presence_of_element_located((By.CSS_SELECTOR, "ul > a[href^='/mscdetail/']"))
         )
         
         link_url = result_link.get_attribute("href")

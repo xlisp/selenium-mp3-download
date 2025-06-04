@@ -88,7 +88,7 @@ def download_song(driver, song_name):
         
         # Wait for search results - adjusted selector based on actual HTML structure
         result_link = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "ul > a[href^='/mscdetail/']"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "ul > a[href*='/mscdetail/']"))
         )
         
         link_url = result_link.get_attribute("href")
@@ -99,15 +99,18 @@ def download_song(driver, song_name):
         
         # On the detail page, find and click the "夸克MP3链接下载" button
         # Using a more robust selector that works with the actual page structure
-        quark_download_btn = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/download/') and .//h2[contains(@style, 'background:#f7de0e')]]"))
-        )
+        #quark_download_btn = WebDriverWait(driver, 10).until(
+        #    EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/download/') and .//h2[contains(@style, 'background:#f7de0e')]]"))
+        #)
         
         # Store the current window handle
         original_window = driver.current_window_handle
         
         # Get the href directly and navigate to it instead of clicking
-        download_url = quark_download_btn.get_attribute("href")
+        #download_url = quark_download_btn.get_attribute("href")
+        download_url = get_download_links_with_curl(link_url)[0]
+        print("下载MP3链接" + download_url)
+
         driver.execute_script(f"window.open('{download_url}', '_blank');")
         
         # Wait for the new window or tab
